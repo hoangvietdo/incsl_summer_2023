@@ -6,6 +6,9 @@
 This project guides you through a simple process of autonomously driving a 4-wheeled mobile robot along a predetermined smooth trajectory using ROS (Robot Operating System). We will start by simulating the robot's behavior in ROS and then transition to implementing the same approach on a real-world robot.
 
 Duration: At most two weeks.
+
+Tasks will be assigned, and upon completion, you will earn certain points.
+
 ### 2. Goals
 - Understand the basic concepts of Ubuntu (Command-line interface), ROS (topic, launch, node, message, etc), and Github.
 - Create a simple ROS package (project) that includes our control algorithm (code).
