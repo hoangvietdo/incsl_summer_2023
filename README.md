@@ -18,4 +18,4 @@ Duration: At most two weeks.
 - ROS: Noetic / Foxy.
 - Programming Language: C++ / Python.
 
-<img src="https://github.com/hoangvietdo/incsl_summer_2023/assets/51826956/ad965c0d-fa97-418a-9bbc-45797883e424" width="300" height="400" align="center">
+<img src="https://github.com/hoangvietdo/incsl_summer_2023/assets/51826956/ad965c0d-fa97-418a-9bbc-45797883e424" width="250" height="400" align="center">
