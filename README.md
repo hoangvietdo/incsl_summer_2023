@@ -1,5 +1,6 @@
 ## Welcome to iNCSL Robotics Summer Camp 2023
         Intelligent Navigation and Control Systems Laboratory
+      Department of Convergence Engineering for Intelligent Drone
     School of Intelligent Mechatronics Engineering, Sejong University
 ### 1. Overview
 This project guides you through a simple process of autonomously driving a 4-wheeled mobile robot along a predetermined smooth trajectory using ROS (Robot Operating System). We will start by simulating the robot's behavior in ROS and then transition to implementing the same approach on a real-world robot.
