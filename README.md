@@ -7,7 +7,18 @@ This project guides you through a simple process of autonomously driving a 4-whe
 
 Duration: At most two weeks.
 
-Tasks will be assigned, and upon completion, you will earn certain points.
+A total of nine tasks will be assigned, and upon completion, you will earn certain points.
+- Task 1 (5 points).
+- Task 2 (20 points).
+- Task 3 (10 points).
+- Task 4 (10 points).
+- Task 5 (10 points).
+- Task 6 (10 points).
+- Task 7 (15 points).
+- Task 8 (10 points).
+- Task 9 (10 points).
+
+The maximum score for a Graduate student is 100 points, while for an Undergraduate student, it is 75 points.
 
 ### 2. Goals
 - Understand the basic concepts of Ubuntu (Command-line interface), ROS (topic, launch, node, message, etc), and Github.
