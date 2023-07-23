@@ -16,10 +16,10 @@
 
 #### Find the formula of $\dot{x}_r$ , $\dot{y}_r$ , $\ddot{x}_r$ , and $\ddot{y}_r$ in Circle Trajectory
 
-![alt text](./Task3.jpg)
+![alt text](./Task3.JPG)
 
 ## Task 4
 
 #### Find the formula of $\dot{x}_r$ , $\dot{y}_r$ , $\ddot{x}_r$ , and $\ddot{y}_r$ in 8-shape Trajectory
 
-![alt text](./Task4.jpg)
+![alt text](./Task4.JPG)
