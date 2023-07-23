@@ -11,3 +11,15 @@
 #### Calculate general formula of $v_r$ and $w_r$
 
 ![alt text](./Task2.jpg)
+
+## Task 3
+
+#### Find the formula of $\dot{x}_r$ , $\dot{y}_r$ , $\ddot{x}_r$ , and $\ddot{y}_r$ in Circle Trajectory
+
+![alt text](./Task3.JPG)
+
+## Task 4
+
+#### Find the formula of $\dot{x}_r$ , $\dot{y}_r$ , $\ddot{x}_r$ , and $\ddot{y}_r$ in 8-shape Trajectory
+
+![alt text](./Task4.JPG)
