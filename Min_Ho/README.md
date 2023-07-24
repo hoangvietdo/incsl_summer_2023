@@ -26,6 +26,6 @@
 
 ## Task 5
 
-#### square trajectory using your keyboard
+#### Square trajectory using your keyboard
 
 ![alt text](./Task5.jpg)
