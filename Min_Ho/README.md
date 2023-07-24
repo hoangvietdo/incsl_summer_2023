@@ -26,6 +26,6 @@
 
 ## Task 5
 
-#### Square trajectory using your keyboard
+#### Draw Square trajectory using your keyboard
 
 ![alt text](./Task5.jpg)
