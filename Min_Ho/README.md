@@ -40,6 +40,14 @@ $$\ddot{y}_r = -4 \cdot \bar{a} \cdot \bar{b}^2 \cdot \sin{\bar{b}t} \cdot \cos{
 
 ## Task 5
 
-#### Draw Square trajectory using your keyboard ^
+#### Draw Square trajectory using your keyboard
 
 ![alt text](./Task5.jpg)
+
+## Task 6
+
+#### Control the turtlesim and make it move in both circular and 8-shaped trajectories.
+
+![t_Task6](https://github.com/Minho-iNCSL/incsl_summer_2023/assets/60316325/6c0779f4-4cee-4b9a-8af9-2285fdad4a3f)
+
+
