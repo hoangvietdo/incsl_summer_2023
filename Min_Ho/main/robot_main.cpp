@@ -18,9 +18,9 @@ using std::placeholders::_1;
 
 double t(0.0);
 
-float feed_x(0.0);
-float feed_y(0.0);
-float feed_th(0.0);
+double xb(0.0);
+double yb(0.0);
+double th_feed(0.0);
 
 double x(0.0);
 double y(0.0);
@@ -30,13 +30,13 @@ double ydot(0.0);
 double xddot(0.0);
 double yddot(0.0);
 
-double k1(10.0);
-double k2(10.0);
-double k3(10.0);
+double k1(1.0);
+double k2(1.0);
+double k3(1.0);
 
 double a(2.0);
 double b(0.4);
-double dt(0.01);
+double dt(0.02);
 
 const char* msg = R"(
 ----------------------------------------------------------------
@@ -108,13 +108,13 @@ class feedbackController : public rclcpp::Node{
             geometry_msgs::msg::Twist twist;
 
             // define publisher 
-            pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel",10);
+            pub_ = this->create_publisher<geometry_msgs::msg::Twist>("/cmd_vel",5);
             sub_ = this->create_subscription<nav_msgs::msg::Odometry>
-                ("/odom", 10, std::bind(&feedbackController::feedback_callback, this, _1));
+                ("/odom", 5, std::bind(&feedbackController::feedback_callback, this, _1));
 
             // define timer
             timer_ = this->create_wall_timer(
-                10ms, std::bind(&feedbackController::timer_callback, this));
+                20ms, std::bind(&feedbackController::timer_callback, this));
         }
 
         private:
@@ -133,16 +133,16 @@ class feedbackController : public rclcpp::Node{
                     y = a*sin(b*t)*cos(b*t);
                     th = atan2(ydot, xdot);
 
-                    double e1 = cos(th)*(x - feed_x) + sin(th)*(y - feed_y);
-                    double e2 = -sin(th)*(x - feed_x) + cos(th)*(y - feed_y);
-                    double e3 = th - feed_th;
+                    double e1 = cos(th)*(x - xb) + sin(th)*(y - yb);
+                    double e2 = -sin(th)*(x - xb) + cos(th)*(y - yb);
+                    double e3 = th - th_feed;
 
                     xddot = -a * pow(b, 2.0) * sin(b * t);
                     yddot = -4 * a * pow(b, 2.0) * sin(b * t) * cos(b * t);
                     double ang_z = (yddot * xdot - ydot * xddot) / (pow(xdot, 2.0) + pow(ydot, 2.0));
 
                     command.linear.x = lin_x * cos(e3) + k1 * e1;
-                    command.angular.z = ang_z + k2 * lin_x * e2 + k3 * lin_x * sin(e3);
+                    command.angular.z = ang_z + k2 * lin_x * e2 + k3 * sin(e3);
 
                     pub_->publish(command);
                     t = t + dt;
@@ -175,8 +175,8 @@ class feedbackController : public rclcpp::Node{
 
             void feedback_callback(const nav_msgs::msg::Odometry::SharedPtr data) const
             {
-                feed_x = data->pose.pose.position.x;
-                feed_y = data->pose.pose.position.y;
+                xb = data->pose.pose.position.x;
+                yb = data->pose.pose.position.y;
                 
                 double quat_w = data->pose.pose.orientation.w;
                 double quat_x = data->pose.pose.orientation.x;
@@ -185,12 +185,13 @@ class feedbackController : public rclcpp::Node{
 
                 double yaw = atan2(2*(quat_w*quat_z + quat_x*quat_y), 1-2*(quat_y*quat_y + quat_z*quat_z));
 
-                feed_th = yaw;
+                th_feed = yaw;
             }
 
             rclcpp::TimerBase::SharedPtr timer_;
             rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_;
             rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr sub_;
+            // rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_;    
 };
 
 int main(int argc, char** argv){
@@ -212,3 +213,4 @@ int main(int argc, char** argv){
 
     return 0;
 }
+
