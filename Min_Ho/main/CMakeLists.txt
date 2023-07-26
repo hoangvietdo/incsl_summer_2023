@@ -43,16 +43,24 @@ add_executable(eight_trajectory src/eight_main.cpp)
 add_executable(feedback_controller src/feedback_main.cpp)
 add_executable(robot_controller src/robot_main.cpp)
 
+add_executable(feedback_ff_controller src/robot_ff_main.cpp)
+add_executable(feedback_fb_controller src/robot_fb_main.cpp)
+
 ament_target_dependencies(circle_trajectory rclcpp geometry_msgs std_srvs std_msgs turtlesim)
 ament_target_dependencies(eight_trajectory rclcpp geometry_msgs std_srvs std_msgs turtlesim)
 ament_target_dependencies(feedback_controller rclcpp geometry_msgs std_srvs std_msgs turtlesim)
-ament_target_dependencies(robot_controller rclcpp geometry_msgs nav_msgs std_msgs)
+ament_target_dependencies(robot_controller rclcpp geometry_msgs nav_msgs std_msgs turtlesim)
+
+ament_target_dependencies(feedback_ff_controller rclcpp geometry_msgs nav_msgs std_msgs turtlesim)
+ament_target_dependencies(feedback_fb_controller rclcpp geometry_msgs nav_msgs std_msgs turtlesim)
 
 install(TARGETS
   circle_trajectory
   eight_trajectory
   feedback_controller
   robot_controller
+  feedback_ff_controller
+  feedback_fb_controller
   DESTINATION lib/${PROJECT_NAME}
 )
 
