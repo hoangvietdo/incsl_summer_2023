@@ -7,7 +7,7 @@ Create folder and specifies your preferred ROS version and programming language
 
 ## Task 2
 $$\begin{aligned} v_r &= \sqrt{ \dot x_r ^2 + \dot y_r ^2 }\\
-  w_r &= {(\dot y_r x_r - y_r \dot x_r) \over (x_r^2 + y_r ^2)}
+  w_r &= {(\ddot y_r \dot x_r - \ddot x_r \dot y_r) \over (\dot x_r^2 + \dot y_r ^2)}
   \end{aligned}$$
 
 
