@@ -1,3 +1,3 @@
 - Kyeong Wook Seo
-- ROS noetic
+- ROS2 Foxy
 - c++
