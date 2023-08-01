@@ -14,3 +14,7 @@ Im pretty
 
 ### Task 5
 ![ros_task5](https://github.com/so0007/incsl_summer_2023/assets/140600592/5f5befee-06bf-46fe-ab14-f48c9d17673f)
+
+
+### Task 6
+![ros_task6](https://github.com/hoangvietdo/incsl_summer_2023/assets/140600592/cfbabc66-8848-42d4-8652-f51fdf4fc582)
