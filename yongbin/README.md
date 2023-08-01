@@ -49,9 +49,9 @@ $$\ddot y_r = -ab^2\sin(bt)$$
 
 $$\dot x_r = \bar a \bar b\sin(\bar b t)$$
 
-$$\ddot x_r = \bar a \bar b\cos^2(\bar b t) - \bar a \bar b\sin^2(\bar b t)$$
+$$\ddot x_r = \bar a \bar b^2 \cos(\bar b t)$$
 
-$$\dot y_r = \bar a \bar b^2 \cos(\bar b t)$$
+$$\dot y_r = \bar a \bar b\cos^2(\bar b t) - \bar a \bar b\sin^2(\bar b t)$$
 
 $$\ddot y_r = 2\bar a \bar b^2 \sin(\bar b t) \cos(\bar b t) - 2\bar a \bar b^2 \sin(\bar b t) \cos(\bar b t)$$
 
