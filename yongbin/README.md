@@ -27,14 +27,14 @@ $$ \therefore v_r = \sqrt{\dot x_r^2 + \dot y_r^2} $$
 
 ### task 2-2
 
-$$\frac{d[\arctan(\frac{\sin(\theta)}{\cos(\theta)})]}{dt} = -\frac{y}{x^2+y^2}dx+\frac{x}{x^2+y^2}dy$$
+$$ \theta_r = \arctan(\frac{\dot y_r}{\dot x_r})$$
 
-$$\frac{d\theta}{dt} = \frac{xdy-ydx}{x^2+y^2}$$
+$$ \dot \theta_r = \frac{d[\arctan(\frac{\dot y_r}{\dot x_r})]}{dt}$$
 
-$$\therefore \dot \theta_r = \frac{xdy-ydx}{x^2+y^2}$$
+$$\therefore \dot \theta_r = \frac{\dot x_r \\ddot y_r - \ddot x_r \dot y_r}{x_r^2+y_r^2}$$
 
 ## task 3
-> find $\dot x_r$, $\ddot x_r$, $\dot y_r$, $\ddot y_r$
+> in trajectory equation, find $\dot x_r$, $\ddot x_r$, $\dot y_r$, $\ddot y_r$
 
 $$\dot x_r = -ab\sin(bt)$$
 
@@ -45,7 +45,7 @@ $$\dot y_r = -ab\cos(bt)$$
 $$\ddot y_r = -ab^2\sin(bt)$$
 
 ## task 4
-> find $\dot x_r$, $\ddot x_r$, $\dot y_r$, $\ddot y_r$
+> in 8-shape trajectory equation, find $\dot x_r$, $\ddot x_r$, $\dot y_r$, $\ddot y_r$
 
 $$\dot x_r = \bar a \bar b\sin(\bar b t)$$
 
