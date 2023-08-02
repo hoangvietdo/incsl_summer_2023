@@ -31,7 +31,7 @@ $$ \theta_r = \arctan(\frac{\dot y_r}{\dot x_r})$$
 
 $$ \dot \theta_r = \frac{d[\arctan(\frac{\dot y_r}{\dot x_r})]}{dt}$$
 
-$$\therefore \dot \theta_r = \frac{\dot x_r \\ddot y_r - \ddot x_r \dot y_r}{x_r^2+y_r^2}$$
+$$\therefore \omega_r = \frac{\dot x_r \\ddot y_r - \ddot x_r \dot y_r}{x_r^2+y_r^2}$$
 
 ## task 3
 > in trajectory equation, find $\dot x_r$, $\ddot x_r$, $\dot y_r$, $\ddot y_r$
