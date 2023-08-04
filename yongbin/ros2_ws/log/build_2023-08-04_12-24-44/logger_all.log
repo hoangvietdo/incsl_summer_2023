@@ -1,0 +1,179 @@
+[0.177s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.177s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c9d18b0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c9d18b0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c9d1e20>)
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.192s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_pubsub) by extension 'ros'
+[0.206s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_pubsub' with type 'ros.ament_python' and name 'test_pubsub'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ignore_ament_install'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_control) by extension 'ros'
+[0.207s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_control' with type 'ros.ament_python' and name 'turtle_control'
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.218s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.219s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/yongbin/ros2_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.219s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yongbin/ros2_ws/install/turtle_control' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.219s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/yongbin/ros2_ws/install/test_pubsub' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.220s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 371 installed packages in /opt/ros/foxy
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.269s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_target' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_clean_first' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'cmake_force_configure' from command line to 'False'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'ament_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'test_pubsub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.270s] DEBUG:colcon.colcon_core.verb:Building package 'test_pubsub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub', 'merge_install': False, 'path': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub', 'symlink_install': False, 'test_result_base': None}
+[0.270s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.271s] Level 5:colcon.colcon_core.verb:set package 'turtle_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.271s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control', 'merge_install': False, 'path': '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/turtle_control', 'symlink_install': False, 'test_result_base': None}
+[0.271s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.273s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.273s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub' with build type 'ament_python'
+[0.273s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pubsub', 'ament_prefix_path')
+[0.276s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/ament_prefix_path.ps1'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/ament_prefix_path.dsv'
+[0.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/ament_prefix_path.sh'
+[0.278s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.278s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.283s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/turtle_control' with build type 'ament_python'
+[0.283s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'ament_prefix_path')
+[0.284s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.ps1'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.dsv'
+[0.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/ament_prefix_path.sh'
+[0.286s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.286s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.427s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub'
+[0.428s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.428s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.560s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/turtle_control'
+[0.561s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.561s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/turtle_control': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/install.log --install-scripts $base/lib/turtle_control --single-version-externally-managed
+[0.839s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/install.log --install-scripts $base/lib/test_pubsub --single-version-externally-managed
+[1.013s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub' returned '0': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/install.log --install-scripts $base/lib/test_pubsub --single-version-externally-managed
+[1.015s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub' for CMake module files
+[1.016s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub' for CMake config files
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/bin'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/pkgconfig/test_pubsub.pc'
+[1.017s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages'
+[1.017s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_pubsub', 'pythonpath')
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/pythonpath.ps1'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/pythonpath.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/hook/pythonpath.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/bin'
+[1.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_pubsub)
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/package.ps1'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/package.dsv'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/package.sh'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/package.bash'
+[1.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub/package.zsh'
+[1.022s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/colcon-core/packages/test_pubsub)
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control' for CMake module files
+[1.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/turtle_control' returned '0': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/turtle_control build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/turtle_control/install.log --install-scripts $base/lib/turtle_control --single-version-externally-managed
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control' for CMake config files
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/lib'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/bin'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/lib/pkgconfig/turtle_control.pc'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/lib/python3.8/site-packages'
+[1.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_control', 'pythonpath')
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.ps1'
+[1.025s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.dsv'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/hook/pythonpath.sh'
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/bin'
+[1.026s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_control)
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/package.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/package.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/package.sh'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/package.bash'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/turtle_control/package.zsh'
+[1.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/turtle_control/share/colcon-core/packages/turtle_control)
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.028s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.028s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.034s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.034s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.052s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/local_setup.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/_local_setup_util_ps1.py'
+[1.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/setup.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/local_setup.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/_local_setup_util_sh.py'
+[1.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/setup.sh'
+[1.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/local_setup.bash'
+[1.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/setup.bash'
+[1.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/local_setup.zsh'
+[1.058s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/setup.zsh'

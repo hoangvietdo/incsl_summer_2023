@@ -1,0 +1,4 @@
+[console_scripts]
+cricle = turtle_control.draw_circle:main
+eight = turtle_control.draw_eight:main
+

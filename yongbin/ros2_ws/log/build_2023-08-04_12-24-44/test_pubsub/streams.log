@@ -1,0 +1,41 @@
+[0.564s] Invoking command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/install.log --install-scripts $base/lib/test_pubsub --single-version-externally-managed
+[0.677s] running egg_info
+[0.678s] creating ../../build/test_pubsub/test_pubsub.egg-info
+[0.678s] writing ../../build/test_pubsub/test_pubsub.egg-info/PKG-INFO
+[0.678s] writing dependency_links to ../../build/test_pubsub/test_pubsub.egg-info/dependency_links.txt
+[0.678s] writing entry points to ../../build/test_pubsub/test_pubsub.egg-info/entry_points.txt
+[0.678s] writing requirements to ../../build/test_pubsub/test_pubsub.egg-info/requires.txt
+[0.678s] writing top-level names to ../../build/test_pubsub/test_pubsub.egg-info/top_level.txt
+[0.679s] writing manifest file '../../build/test_pubsub/test_pubsub.egg-info/SOURCES.txt'
+[0.697s] reading manifest file '../../build/test_pubsub/test_pubsub.egg-info/SOURCES.txt'
+[0.699s] writing manifest file '../../build/test_pubsub/test_pubsub.egg-info/SOURCES.txt'
+[0.699s] running build
+[0.699s] running build_py
+[0.699s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build
+[0.700s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib
+[0.700s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.700s] copying test_pubsub/publisher_member_function.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.700s] copying test_pubsub/__init__.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.701s] copying test_pubsub/subscriber_member_function.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub
+[0.701s] running install
+[0.701s] running install_lib
+[0.701s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub
+[0.701s] copying /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub/publisher_member_function.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub
+[0.701s] copying /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub/__init__.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub
+[0.701s] copying /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build/lib/test_pubsub/subscriber_member_function.py -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub
+[0.701s] byte-compiling /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub/publisher_member_function.py to publisher_member_function.cpython-38.pyc
+[0.702s] byte-compiling /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub/__init__.py to __init__.cpython-38.pyc
+[0.702s] byte-compiling /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-38.pyc
+[0.702s] running install_data
+[0.702s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/ament_index
+[0.702s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/ament_index/resource_index
+[0.702s] creating /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/ament_index/resource_index/packages
+[0.702s] copying resource/test_pubsub -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/ament_index/resource_index/packages
+[0.702s] copying package.xml -> /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/share/test_pubsub
+[0.702s] running install_egg_info
+[0.703s] Copying ../../build/test_pubsub/test_pubsub.egg-info to /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages/test_pubsub-0.0.0-py3.8.egg-info
+[0.703s] running install_scripts
+[0.716s] Installing listener script to /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/test_pubsub
+[0.716s] Installing talker script to /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/test_pubsub
+[0.716s] writing list of installed files to '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/install.log'
+[0.738s] Invoked command in '/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/src/test_pubsub' returned '0': PYTHONPATH=/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/prefix_override:/home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/install/test_pubsub/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/test_pubsub build --build-base /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/build install --record /home/yongbin/Repository/incsl_summer_2023/yongbin/ros2_ws/build/test_pubsub/install.log --install-scripts $base/lib/test_pubsub --single-version-externally-managed
