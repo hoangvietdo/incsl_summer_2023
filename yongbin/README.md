@@ -60,6 +60,10 @@ $$\ddot y_r = 2\bar a \bar b^2 \sin(\bar b t) \cos(\bar b t) - 2\bar a \bar b^2 
 
 ![turtlesim_square](https://github.com/yblee1223/incsl_summer_2023/assets/54783158/3c9c45e7-4c25-45d2-a9de-726b3790bf34)
 
+## task 6
+> draw circle & 8-shape
+![Screenshot from 2023-08-04 11-26-27](https://github.com/yblee1223/incsl_summer_2023/assets/54783158/343df0a8-dfdb-4e0f-8687-d2f3ad6d068c)
+![Screenshot from 2023-08-04 12-25-15](https://github.com/yblee1223/incsl_summer_2023/assets/54783158/6a89b31c-0ac6-4026-849f-9e6db2df9e2e)
 
 
 
