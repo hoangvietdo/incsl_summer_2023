@@ -1,4 +1,3 @@
-<<<<<<< main asd
 - yongbin lee
 - ros 2 foxy
 - rospy
@@ -64,10 +63,6 @@ $$\ddot y_r = 2\bar a \bar b^2 \sin(\bar b t) \cos(\bar b t) - 2\bar a \bar b^2 
 > draw square using turtlesim 
 
 ![turtlesim_square](https://github.com/yblee1223/incsl_summer_2023/assets/54783158/3c9c45e7-4c25-45d2-a9de-726b3790bf34)
-
-
-
-
 
 
 
