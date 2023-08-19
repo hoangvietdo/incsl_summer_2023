@@ -74,4 +74,6 @@ $$\ddot y_r = 2\bar a \bar b^2 \sin(\bar b t) \cos(\bar b t) - 2\bar a \bar b^2 
 ## task 8
 > draw circle using Scout Mini
 
+https://github.com/yblee1223/incsl_summer_2023/assets/54783158/86ac7828-1fcf-4ff3-8d39-2ae40609c712
+
 
