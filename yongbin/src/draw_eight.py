@@ -1,7 +1,6 @@
 import rclpy
 from rclpy.node import Node
 from math import sin, cos, pow
-import time
 
 from geometry_msgs.msg import Twist
 
@@ -13,11 +12,6 @@ class DrawEightNode(Node):
         self.a = 1
         self.b = 1
         self.t = 0
-        # self.linear_x = self.a * self.b * sin(self.b * self.timer_)
-        # self.linear_y = self.a * self.b * self.b * cos(self.b * self.timer_)
-        # self.angular_x = self.a * self.b * (pow(cos(self.b * self.timer_)) - pow(sin(self.b * self.timer_)))
-        # self.angular_y = -4 * self.a * self.b * sin(self.b * self.timer_) * cos(self.b * self.timer_)
-
 
     def move_callback(self):
         twist_msg = Twist()
