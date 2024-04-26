@@ -56,5 +56,5 @@ $$\ddot{y}_r = -4 \cdot \bar{a} \cdot \bar{b}^2 \cdot \sin{\bar{b}t} \cdot \cos{
 
 ![Task7](https://github.com/Minho-iNCSL/incsl_summer_2023/assets/60316325/bc54c265-cd5d-457d-bdff-703fafa2e480)
 
-I set the same initial condition (x: 5.5445, y: 5.5445 th: 0.0), but different trajectory because of the feedback controller! 
+I set the same initial condition (x: 5.5445, y: 5.5445 th: 0.0), but different trajectory because of the feedback controller! ^^
 
